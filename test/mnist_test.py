@@ -3,10 +3,9 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
-from sklearn.model_selection import train_test_split
 from ann import MLP, Layer
-from activation_functions import Sigmoid, Lineal, ReLU, LeakyReLU, Tanh
-from loss_functions import MeanSquaredError, SigmoidCrossEntropy, SoftmaxCrossEntropy
+from activation_functions import Lineal, LeakyReLU
+from loss_functions import SoftmaxCrossEntropy
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
@@ -24,7 +23,6 @@ X_test = X_test.astype('float32') / 255
 y_train = tf.keras.utils.to_categorical(y_train, 10)
 y_test = tf.keras.utils.to_categorical(y_test, 10)
 
-# Create an instance of the MLP class
 layers = [
     Layer(28*28, 100, Lineal()),
     Layer(100, 50, LeakyReLU()),
@@ -33,8 +31,10 @@ layers = [
 ]
 mlp = MLP(layers, SoftmaxCrossEntropy(), learning_rate=0.01)
 
-# Train the model
-for it in range(25):
+for it in range(10):
+    indices = np.random.permutation(len(X_train))
+    X_train = X_train[indices]
+    y_train = y_train[indices]
     acc_loss = 0
     correct_predictions = 0
     for i in range(len(X_train)):

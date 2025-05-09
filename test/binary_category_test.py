@@ -6,8 +6,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
 from ann import MLP, Layer
-from activation_functions import Sigmoid, Lineal, ReLU, Tanh, LeakyReLU
-from loss_functions import MeanSquaredError, SigmoidCrossEntropy, SoftmaxCrossEntropy
+from activation_functions import Lineal, Tanh
+from loss_functions import SigmoidCrossEntropy 
 import numpy as np
 
 n_classes = 2
@@ -18,12 +18,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 layers = [
     Layer(20, 10, Lineal()),
-    Layer(10, 1, LeakyReLU()),
+    Layer(10, 1, Tanh()),
     Layer(1, 0, Lineal())
 ]
 mlp = MLP(layers, SigmoidCrossEntropy(), learning_rate=0.01)
 
-for _ in range(1000):
+for it in range(40):
+    indices = np.random.permutation(len(X_train))
+    X_train = X_train[indices]
+    y_train = y_train[indices]
     acc_loss = 0
     correct_predictions = 0
     for i in range(len(X_train)):
@@ -35,7 +38,7 @@ for _ in range(1000):
         acc_loss += mlp.backprop(y_pred, y_true)
         if i%10 == 0:
             mlp.update()
-    print(f"Loss: {acc_loss/len(X_train):.10f}, Acc: {correct_predictions/len(X_train):.2f}")
+    print(f"It:{it}, Loss: {acc_loss/len(X_train):.10f}, Acc: {correct_predictions/len(X_train):.2f}")
 
 
 correct_predictions = 0

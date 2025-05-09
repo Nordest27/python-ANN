@@ -33,7 +33,6 @@ class SigmoidCrossEntropy(LossFunction):
         return loss
 
     def get_gradient(self, logits, y_true):
-        # Sigmoid + simplified gradient
         sigmoid = 1 / (1 + np.exp(-logits))
         return sigmoid - y_true
 
