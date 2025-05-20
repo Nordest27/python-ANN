@@ -1,0 +1,1403 @@
+
+Trial #0
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 1.3725335062999718e-09
+Weights Diff: 5.148379695667431e-11
+
+Trial #1
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 62 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 83 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 21 neurons | Activation: Tanh
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 7.576097493700334e-09
+Weights Diff: 8.958179561183275e-09
+
+Trial #2
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 35 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 70 neurons | Activation: Lineal
+└── Output Layer 3: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 7.176186635866252e-09
+Weights Diff: 1.6417550305655697e-10
+
+Trial #3
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 5.765774653861717e-09
+Weights Diff: 9.658278272682819e-11
+
+Trial #4
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 22 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 77 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 73 neurons | Activation: ReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.3707248594051474e-08
+Weights Diff: 2.665367434133056e-09
+
+Trial #5
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 50 neurons | Activation: ReLU
+├── Hidden Layer 2: 41 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 39 neurons | Activation: Lineal
+├── Hidden Layer 4: 44 neurons | Activation: Tanh
+└── Output Layer 5: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 3.0168182281935394e-09
+Weights Diff: 7.441762966398315e-09
+
+Trial #6
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 78 neurons | Activation: ReLU
+└── Output Layer 2: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 7.091410677463303e-09
+Weights Diff: 2.596683545213975e-10
+
+Trial #7
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 37 neurons | Activation: Lineal
+├── Hidden Layer 2: 68 neurons | Activation: Tanh
+├── Hidden Layer 3: 53 neurons | Activation: ReLU
+├── Hidden Layer 4: 53 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.9562086461984765e-09
+Weights Diff: 4.171096013438041e-08
+
+Trial #8
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 5.669648748070205e-09
+Weights Diff: 1.3337204616076592e-10
+
+Trial #9
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 4.361734983122076e-09
+Weights Diff: 1.0943209080652078e-10
+
+Trial #10
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 75 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 72 neurons | Activation: ReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.2368421784706613e-08
+Weights Diff: 3.996038445797376e-09
+
+Trial #11
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 26 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 55 neurons | Activation: LeakyReLU
+├── Hidden Layer 3: 98 neurons | Activation: Tanh
+├── Hidden Layer 4: 48 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.989661397040611e-09
+Weights Diff: 4.584422485693122e-08
+
+Trial #12
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 34 neurons | Activation: Tanh
+├── Hidden Layer 2: 48 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 97 neurons | Activation: ReLU
+├── Hidden Layer 4: 25 neurons | Activation: Sigmoid
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.9856250548047786e-08
+Weights Diff: 4.2637373288803344e-09
+
+Trial #13
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 7.363144879915467e-09
+Weights Diff: 1.1592487879270039e-10
+
+Trial #14
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.0005571387309478e-09
+Weights Diff: 3.18953153504759e-11
+
+Trial #15
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 6.982708995549979e-09
+Weights Diff: 1.8093367214695517e-10
+
+Trial #16
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 69 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 94 neurons | Activation: ReLU
+├── Hidden Layer 3: 87 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.488261900051652e-08
+Weights Diff: 1.0600493111286936e-08
+
+Trial #17
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 80 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.5169284881558225e-08
+Weights Diff: 1.4059853276583012e-09
+
+Trial #18
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 22 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 82 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.269405708986464e-09
+Weights Diff: 3.3238865907472614e-09
+
+Trial #19
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 31 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 45 neurons | Activation: Sigmoid
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.3870252339142915e-08
+Weights Diff: 1.2118837203598984e-09
+
+Trial #20
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 87 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 53 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.6808290354253028e-08
+Weights Diff: 7.041293726707697e-09
+
+Trial #21
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 67 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.1757503269464298e-09
+Weights Diff: 2.532727424948309e-10
+
+Trial #22
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 45 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.874079927699622e-09
+Weights Diff: 9.396878684075308e-10
+
+Trial #23
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 23 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 62 neurons | Activation: Lineal
+├── Hidden Layer 3: 77 neurons | Activation: ReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.600585145349697e-08
+Weights Diff: 2.2516003428740558e-08
+
+Trial #24
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 22 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 28 neurons | Activation: Tanh
+├── Hidden Layer 3: 97 neurons | Activation: Lineal
+├── Hidden Layer 4: 67 neurons | Activation: Lineal
+└── Output Layer 5: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.6547327351871615e-08
+Weights Diff: 3.9286553438365855e-10
+
+Trial #25
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.8161679674482707e-09
+Weights Diff: 4.400193889130073e-11
+
+Trial #26
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 89 neurons | Activation: Tanh
+├── Hidden Layer 2: 34 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.2600423035596875e-08
+Weights Diff: 6.698575784421823e-09
+
+Trial #27
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 70 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 43 neurons | Activation: ReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.1425751175129355e-08
+Weights Diff: 4.499406186666801e-09
+
+Trial #28
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 91 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 38 neurons | Activation: Lineal
+├── Hidden Layer 3: 68 neurons | Activation: ReLU
+└── Output Layer 4: 10 neurons | Activation: LeakyReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.143368906026819e-09
+Weights Diff: 4.251032260899248e-09
+
+Trial #29
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 84 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 38 neurons | Activation: Lineal
+└── Output Layer 3: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.4563764283313324e-09
+Weights Diff: 1.5962653293034078e-09
+
+Trial #30
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 95 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 74 neurons | Activation: ReLU
+└── Output Layer 3: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.7398746743083647e-09
+Weights Diff: 1.0354004922959288e-09
+
+Trial #31
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 90 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 89 neurons | Activation: LeakyReLU
+├── Hidden Layer 3: 20 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.6133436718682355e-08
+Weights Diff: 3.506644348578218e-08
+
+Trial #32
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 99 neurons | Activation: ReLU
+├── Hidden Layer 2: 64 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 62 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 30 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.86435629320899e-08
+Weights Diff: 6.001624859072501e-08
+
+Trial #33
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 66 neurons | Activation: Tanh
+├── Hidden Layer 2: 55 neurons | Activation: Lineal
+├── Hidden Layer 3: 95 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 84 neurons | Activation: ReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 6.052277238261131e-09
+Weights Diff: 2.963109024773571e-09
+
+Trial #34
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 45 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 80 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 44 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 37 neurons | Activation: Tanh
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 6.806002318800789e-09
+Weights Diff: 1.846342734468675e-08
+
+Trial #35
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 26 neurons | Activation: Tanh
+├── Hidden Layer 2: 32 neurons | Activation: LeakyReLU
+├── Hidden Layer 3: 41 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 48 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.803888291218169e-09
+Weights Diff: 1.116566092747898e-07
+
+Trial #36
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 1.1463847115272767e-09
+Weights Diff: 5.491629789334563e-11
+
+Trial #37
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 23 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 51 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.772558395097066e-09
+Weights Diff: 3.4994877579994404e-09
+
+Trial #38
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 63 neurons | Activation: ReLU
+├── Hidden Layer 2: 21 neurons | Activation: Tanh
+├── Hidden Layer 3: 95 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 74 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.11511635426562e-09
+Weights Diff: 2.117991207656125e-09
+
+Trial #39
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 59 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 30 neurons | Activation: ReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.653973905361413e-08
+Weights Diff: 6.883168923822694e-09
+
+Trial #40
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 64 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 42 neurons | Activation: ReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.781202210390079e-09
+Weights Diff: 3.923091242612189e-09
+
+Trial #41
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 35 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 77 neurons | Activation: LeakyReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.905660118221481e-09
+Weights Diff: 1.092828316465052e-09
+
+Trial #42
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 66 neurons | Activation: Tanh
+├── Hidden Layer 2: 64 neurons | Activation: ReLU
+├── Hidden Layer 3: 44 neurons | Activation: ReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.615892277447425e-09
+Weights Diff: 1.5489663222620068e-08
+
+Trial #43
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 38 neurons | Activation: Lineal
+├── Hidden Layer 2: 57 neurons | Activation: Sigmoid
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.748360216928669e-09
+Weights Diff: 1.0135888222470286e-09
+
+Trial #44
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 59 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 95 neurons | Activation: ReLU
+├── Hidden Layer 3: 97 neurons | Activation: Tanh
+├── Hidden Layer 4: 86 neurons | Activation: ReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.6123736164417145e-09
+Weights Diff: 2.9273720183067144e-08
+
+Trial #45
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 89 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 79 neurons | Activation: Lineal
+├── Hidden Layer 3: 43 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 4.01630211973704e-09
+Weights Diff: 4.107971915098723e-09
+
+Trial #46
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 1.3541293609745511e-09
+Weights Diff: 5.940839589650828e-11
+
+Trial #47
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 41 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 83 neurons | Activation: Tanh
+├── Hidden Layer 3: 44 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 6.410922325130354e-09
+Weights Diff: 1.6284619148876318e-08
+
+Trial #48
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 58 neurons | Activation: Tanh
+├── Hidden Layer 2: 45 neurons | Activation: Lineal
+└── Output Layer 3: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.732634674329662e-09
+Weights Diff: 1.413778416105742e-09
+
+Trial #49
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 59 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 88 neurons | Activation: Lineal
+├── Hidden Layer 3: 67 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 38 neurons | Activation: ReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.1905051957256696e-08
+Weights Diff: 1.2188612683100917e-08
+
+Trial #50
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 32 neurons | Activation: Tanh
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.557331784481504e-09
+Weights Diff: 8.852502472402687e-10
+
+Trial #51
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 71 neurons | Activation: Tanh
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.2749921346350933e-08
+Weights Diff: 1.396861067496097e-09
+
+Trial #52
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 66 neurons | Activation: Tanh
+├── Hidden Layer 2: 31 neurons | Activation: ReLU
+├── Hidden Layer 3: 70 neurons | Activation: Tanh
+├── Hidden Layer 4: 58 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: LeakyReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.1343297242260484e-09
+Weights Diff: 1.7821080985741743e-08
+
+Trial #53
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 51 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 26 neurons | Activation: Lineal
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.1603003556397602e-08
+Weights Diff: 7.140051151112477e-09
+
+Trial #54
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 90 neurons | Activation: Tanh
+├── Hidden Layer 2: 33 neurons | Activation: ReLU
+├── Hidden Layer 3: 83 neurons | Activation: ReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.4613148735024554e-08
+Weights Diff: 2.4519977637575387e-08
+
+Trial #55
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 1.1868684379499999e-09
+Weights Diff: 5.165425534176635e-11
+
+Trial #56
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 90 neurons | Activation: Tanh
+├── Hidden Layer 2: 76 neurons | Activation: Tanh
+├── Hidden Layer 3: 74 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 51 neurons | Activation: Sigmoid
+└── Output Layer 5: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.58284329179835e-08
+Weights Diff: 7.302189069305128e-10
+
+Trial #57
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 30 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 94 neurons | Activation: Tanh
+├── Hidden Layer 3: 35 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 75 neurons | Activation: Sigmoid
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.6140949555183985e-09
+Weights Diff: 5.851183676957024e-10
+
+Trial #58
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 83 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 76 neurons | Activation: ReLU
+├── Hidden Layer 3: 73 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.9634208757958165e-09
+Weights Diff: 2.465933860953518e-09
+
+Trial #59
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 5.247684743528522e-10
+Weights Diff: 2.387229883973671e-11
+
+Trial #60
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 94 neurons | Activation: LeakyReLU
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.592151990716606e-08
+Weights Diff: 1.0414777868892772e-09
+
+Trial #61
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 28 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 97 neurons | Activation: Sigmoid
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.9552406994181634e-08
+Weights Diff: 4.949119139227186e-10
+
+Trial #62
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 84 neurons | Activation: ReLU
+├── Hidden Layer 2: 99 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 78 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 23 neurons | Activation: Tanh
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 7.614263703109667e-09
+Weights Diff: 2.433338244168054e-08
+
+Trial #63
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 67 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 94 neurons | Activation: Lineal
+└── Output Layer 3: 10 neurons | Activation: ReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.9188055533746824e-09
+Weights Diff: 9.763802843541446e-10
+
+Trial #64
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.547904365566627e-09
+Weights Diff: 5.4330975023203097e-11
+
+Trial #65
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 20 neurons | Activation: ReLU
+├── Hidden Layer 2: 93 neurons | Activation: Sigmoid
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.8689400854015657e-08
+Weights Diff: 4.759245090202333e-10
+
+Trial #66
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 56 neurons | Activation: ReLU
+├── Hidden Layer 2: 29 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 40 neurons | Activation: Lineal
+├── Hidden Layer 4: 45 neurons | Activation: Lineal
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.9203450473180663e-08
+Weights Diff: 7.594656629796831e-08
+
+Trial #67
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 40 neurons | Activation: LeakyReLU
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.393265325033534e-08
+Weights Diff: 1.3407034957715354e-09
+
+Trial #68
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 49 neurons | Activation: Tanh
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.5157435191552853e-08
+Weights Diff: 1.1070880955624868e-09
+
+Trial #69
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 80 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 77 neurons | Activation: Tanh
+├── Hidden Layer 3: 65 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 69 neurons | Activation: Lineal
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.570847165505509e-09
+Weights Diff: 1.8030772689602912e-08
+
+Trial #70
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 92 neurons | Activation: Sigmoid
+├── Hidden Layer 2: 41 neurons | Activation: Tanh
+├── Hidden Layer 3: 27 neurons | Activation: Tanh
+├── Hidden Layer 4: 99 neurons | Activation: Sigmoid
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.113002265033877e-08
+Weights Diff: 2.023097664549773e-09
+
+Trial #71
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 38 neurons | Activation: ReLU
+├── Hidden Layer 2: 35 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 55 neurons | Activation: Lineal
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.266813842799376e-09
+Weights Diff: 5.01010567656852e-09
+
+Trial #72
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 72 neurons | Activation: ReLU
+├── Hidden Layer 2: 30 neurons | Activation: ReLU
+├── Hidden Layer 3: 40 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 37 neurons | Activation: Lineal
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 7.842525024194328e-09
+Weights Diff: 1.360409123622034e-07
+
+Trial #73
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 56 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 61 neurons | Activation: LeakyReLU
+└── Output Layer 3: 10 neurons | Activation: Tanh
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.23268623985212e-09
+Weights Diff: 1.2152844214544972e-09
+
+Trial #74
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 73 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.243132223282655e-08
+Weights Diff: 1.402900182726951e-09
+
+Trial #75
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 1.1775034752847927e-09
+Weights Diff: 5.7600474028505945e-11
+
+Trial #76
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 37 neurons | Activation: Lineal
+├── Hidden Layer 2: 31 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: ReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.7565154277820142e-09
+Weights Diff: 1.5375623015770487e-09
+
+Trial #77
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.035977372050143e-09
+Weights Diff: 3.353313144732255e-11
+
+Trial #78
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: ReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 6.278846811835352e-10
+Weights Diff: 2.5590454847518246e-11
+
+Trial #79
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 92 neurons | Activation: ReLU
+├── Hidden Layer 2: 52 neurons | Activation: LeakyReLU
+├── Hidden Layer 3: 66 neurons | Activation: LeakyReLU
+├── Hidden Layer 4: 26 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: ReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.9349783899511763e-09
+Weights Diff: 3.083793296934822e-08
+
+Trial #80
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 8.061201155244028e-09
+Weights Diff: 1.0263250664695481e-10
+
+Trial #81
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 61 neurons | Activation: ReLU
+├── Hidden Layer 2: 83 neurons | Activation: LeakyReLU
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 3.6606516704652167e-09
+Weights Diff: 1.7550424832181665e-09
+
+Trial #82
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 4.592279109858782e-10
+Weights Diff: 2.501055544586306e-11
+
+Trial #83
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 4.849510901196693e-09
+Weights Diff: 9.83797854265157e-11
+
+Trial #84
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 86 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 69 neurons | Activation: ReLU
+├── Hidden Layer 3: 54 neurons | Activation: LeakyReLU
+└── Output Layer 4: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.912317887729118e-08
+Weights Diff: 2.6077240762722834e-08
+
+Trial #85
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 37 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 2.9744781711451544e-09
+Weights Diff: 4.666338385039051e-10
+
+Trial #86
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 31 neurons | Activation: Lineal
+├── Hidden Layer 2: 81 neurons | Activation: Tanh
+├── Hidden Layer 3: 61 neurons | Activation: Lineal
+├── Hidden Layer 4: 82 neurons | Activation: Sigmoid
+└── Output Layer 5: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.0504629285788555e-08
+Weights Diff: 3.2030369710063606e-10
+
+Trial #87
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 6.912538176413868e-09
+Weights Diff: 1.8825721031528967e-10
+
+Trial #88
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 29 neurons | Activation: Tanh
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 5.676027930954171e-09
+Weights Diff: 1.18339807745648e-09
+
+Trial #89
+
+MLP Structure:
+
+Input Layer: 784 neurons
+└── Output Layer 1: 10 neurons | Activation: Lineal
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.1119756657315295e-09
+Weights Diff: 2.3884097680127302e-11
+
+Trial #90
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 70 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.2179042424431193e-08
+Weights Diff: 1.3273511928326896e-09
+
+Trial #91
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 45 neurons | Activation: ReLU
+├── Hidden Layer 2: 55 neurons | Activation: Sigmoid
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.6700173239945312e-08
+Weights Diff: 1.050623116822745e-09
+
+Trial #92
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 54 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 4.482516598283364e-09
+Weights Diff: 7.321456561828517e-10
+
+Trial #93
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 79 neurons | Activation: Lineal
+├── Hidden Layer 2: 62 neurons | Activation: Tanh
+├── Hidden Layer 3: 64 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 23 neurons | Activation: Tanh
+└── Output Layer 5: 10 neurons | Activation: ReLU
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.951329716878886e-09
+Weights Diff: 3.795798711874399e-09
+
+Trial #94
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 54 neurons | Activation: Lineal
+└── Output Layer 2: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 6.74707753077208e-09
+Weights Diff: 2.6256443156347926e-10
+
+Trial #95
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 67 neurons | Activation: LeakyReLU
+├── Hidden Layer 2: 55 neurons | Activation: Tanh
+└── Output Layer 3: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.583551522454494e-08
+Weights Diff: 6.042244152320021e-09
+
+Trial #96
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 25 neurons | Activation: Lineal
+├── Hidden Layer 2: 73 neurons | Activation: Lineal
+├── Hidden Layer 3: 35 neurons | Activation: Sigmoid
+├── Hidden Layer 4: 36 neurons | Activation: LeakyReLU
+└── Output Layer 5: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 2.075837859883505e-08
+Weights Diff: 1.208887121210446e-08
+
+Trial #97
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 80 neurons | Activation: ReLU
+├── Hidden Layer 2: 47 neurons | Activation: Sigmoid
+├── Hidden Layer 3: 93 neurons | Activation: Tanh
+└── Output Layer 4: 10 neurons | Activation: Sigmoid
+
+Loss Function: MeanSquaredError
+
+Biases Diff: 1.4775494532264425e-08
+Weights Diff: 4.5249650597391065e-10
+
+Trial #98
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 55 neurons | Activation: Sigmoid
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SoftmaxCrossEntropy
+
+Biases Diff: 1.1408224451723588e-08
+Weights Diff: 1.0410581587984645e-09
+
+Trial #99
+
+MLP Structure:
+
+Input Layer: 784 neurons
+├── Hidden Layer 1: 52 neurons | Activation: Lineal
+└── Output Layer 2: 10 neurons | Activation: Lineal
+
+Loss Function: SigmoidCrossEntropy
+
+Biases Diff: 3.201217300648524e-09
+Weights Diff: 8.760148923812087e-10

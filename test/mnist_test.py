@@ -31,7 +31,7 @@ layers = [
 ]
 mlp = MLP(layers, SoftmaxCrossEntropy(), learning_rate=0.01)
 
-for it in range(10):
+for it in range(15):
     indices = np.random.permutation(len(X_train))
     X_train = X_train[indices]
     y_train = y_train[indices]

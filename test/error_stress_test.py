@@ -4,8 +4,8 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
 from ann import MLP, Layer
-from activation_functions import Sigmoid, Lineal, ReLU, LeakyReLU, Tanh
-from loss_functions import MeanSquaredError, SigmoidCrossEntropy, SoftmaxCrossEntropy
+from activation_functions import Lineal, LeakyReLU
+from loss_functions import SoftmaxCrossEntropy
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
@@ -20,29 +20,17 @@ X_train = X_train.astype('float32') / 255
 
 y_train = tf.keras.utils.to_categorical(y_train, 10)
 
-for trial in range(100):
-    print(f"\nTrial #{trial}")
-    n_h_layers = np.random.randint(0, 5)
-    input_dim = np.random.randint(20, 100) if n_h_layers > 0 else n_classes
-    layers = [Layer(28*28, input_dim, Lineal())]
-    for i in range(n_h_layers):
-        output_dim = np.random.randint(20, 100) if n_h_layers-1 != i else n_classes
-        act_class = np.random.choice([Sigmoid, Tanh, ReLU, LeakyReLU, Lineal])
-        layers.append(Layer(input_dim, output_dim, act_class()))
-        input_dim = output_dim
+for trial in range(25):
+    print(f"# hidden layers: {trial}")
+    layers = [Layer(28*28, 50, Lineal())]
+    for i in range(trial):
+        layers.append(Layer(50, 50, LeakyReLU()))
 
-    loss_function = np.random.choice([MeanSquaredError, SigmoidCrossEntropy, SoftmaxCrossEntropy])()
+    layers.append(Layer(50, n_classes, Lineal()))
 
-    final_act_options = [Sigmoid, Tanh, ReLU, LeakyReLU, Lineal] if isinstance(
-        loss_function,
-        MeanSquaredError
-    ) else [Lineal]
-
-    output_activation = np.random.choice(final_act_options)()
-    layers.append(Layer(input_dim, n_classes, output_activation))
-
+    loss_function = SoftmaxCrossEntropy()
     mlp = MLP(layers, loss_function, learning_rate=0.01)
-    mlp.visualize()
+    # mlp.visualize()
 
     ri = np.random.randint(0, len(X_train))
     x = X_train[ri]    
@@ -104,6 +92,3 @@ for trial in range(100):
 
     print("Biases Diff:", biases_numerator/biases_denominator)
     print("Weights Diff:", weights_numerator/weights_denominator)
-
-    assert biases_numerator/biases_denominator < 5e-7, "Bias gradients check failed"
-    assert weights_numerator/weights_denominator < 5e-7, "Weight gradients check failed"

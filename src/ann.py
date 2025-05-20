@@ -58,10 +58,6 @@ class Layer:
         self.biases_gradient = np.zeros_like(self.biases)
 
         self.update_count = 0
-    
-    def reset(self):
-        self.values = np.zeros_like(self.values)
-        self.local_derivative = np.zeros_like(self.values)
 
 class MLP:
 
@@ -84,16 +80,11 @@ class MLP:
         loss, gradient = self.loss_f.get_loss_and_gradient(y_pred, y_true)
         for layer in reversed(self.layers):
             gradient = layer.backward(gradient)
-            layer.reset()
         return loss
     
     def update(self):
         for layer in self.layers:
             layer.update(self.learning_rate)
-
-    def reset(self):
-        for layer in reversed(self.layers):
-            layer.reset()
 
     def visualize(self):
         print("\nMLP Structure:\n")

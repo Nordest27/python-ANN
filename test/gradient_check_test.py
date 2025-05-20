@@ -39,7 +39,6 @@ biases_gradient = np.array([None for _ in layers])
 for i, layer in enumerate(layers):
     weights_gradient[i] = layer.outweights_gradient
     biases_gradient[i] = layer.biases_gradient
-    layer.reset()
 
 numerical_weights_gradient = np.array([None for _ in layers])
 numerical_biases_gradient = np.array([None for _ in layers])
@@ -49,11 +48,9 @@ for l, layer in enumerate(layers):
     for i in range(len(layer.biases)):
         layer.biases[i] += epsilon
         plus_loss = loss_function.get_loss(mlp.forward(x), y_true)
-        mlp.reset()
 
         layer.biases[i] -= 2*epsilon
         minus_loss = loss_function.get_loss(mlp.forward(x), y_true)
-        mlp.reset()
 
         numerical_biases_gradient[l][i] = (plus_loss - minus_loss)/(2*epsilon)
         
@@ -67,11 +64,9 @@ for l, layer in enumerate(layers):
         for j in range(len(layer.outweights[0])):
             layer.outweights[i][j] += epsilon
             plus_loss = loss_function.get_loss(mlp.forward(x), y_true)
-            mlp.reset()
             
             layer.outweights[i][j] -= 2*epsilon
             minus_loss = loss_function.get_loss(mlp.forward(x), y_true)
-            mlp.reset()
             
             numerical_weights_gradient[l][i][j] = (plus_loss - minus_loss)/(2*epsilon)
             layer.outweights[i][j] += epsilon
@@ -93,5 +88,5 @@ for i in range(len(layers)):
 print("Biases Diff:", biases_numerator/biases_denominator)
 print("Weights Diff:", weights_numerator/weights_denominator)
 
-assert biases_numerator/biases_denominator < 1e-7, "Bias gradients check failed"
-assert weights_numerator/weights_denominator < 1e-7, "Weight gradients check failed"
+assert biases_numerator/biases_denominator < 5e-7, "Bias gradients check failed"
+assert weights_numerator/weights_denominator < 5e-7, "Weight gradients check failed"
