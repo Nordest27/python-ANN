@@ -10,10 +10,6 @@ This repository contains the implementation for the second ADM project, in which
 │   └── random_gradcheck_plot.py
 ├── src
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── activation_functions.cpython-38.pyc
-│   │   ├── ann.cpython-38.pyc
-│   │   └── loss_functions.cpython-38.pyc
 │   ├── activation_functions.py
 │   ├── ann.py
 │   └── loss_functions.py
@@ -26,7 +22,22 @@ This repository contains the implementation for the second ADM project, in which
 │   └── randomized_gradient_check_test.py
 ```
 ## Get Started
-This project was implemented in python, so one must have Python3 installed to run it, and it is recommended to have pip too. To avoid issues with the syntax, we recommend to have Python on version 3.10 at least. Before running the project, one must install all the necessary requirements. This are all listed in the ```requirements.txt``` file. To install them it's enough to run the following command:
+This project was implemented in python, so one must have Python3 installed to run it, and it is recommended to have pip too. To avoid issues with the syntax, we recommend to have Python on version 3.11. 
+
+To make sure that you have the correct version of python, you can run the following command:
+```bash
+python --version
+```
+if you don't have conda installed visit: https://www.anaconda.com/download/
+
+It is recommended to use conda (or miniconda) to create a new environment with the correct version of python. To do this, you can run the following command:
+
+```bash
+conda create -n ADM python=3.11
+conda activate ADM
+```
+
+Before running the project, one must install all the necessary requirements. This are all listed in the ```requirements.txt``` file. To install them it's enough to run the following command:
 ```bash
 pip install -r ./requirements.txt
 ```
