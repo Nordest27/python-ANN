@@ -26,7 +26,7 @@ This repository contains the implementation for the second ADM project, in which
 │   └── randomized_gradient_check_test.py
 ```
 ## Get Started
-This project was implemented in python, so one must have Python3 installed to run it, and it is recommended to have pip too. Before running the project, one must install all the necessary requirements. This are all listed in the ```requirements.txt``` file. To install them it's enough to run the following command:
+This project was implemented in python, so one must have Python3 installed to run it, and it is recommended to have pip too. To avoid issues with the syntax, we recommend to have Python on version 3.10 at least. Before running the project, one must install all the necessary requirements. This are all listed in the ```requirements.txt``` file. To install them it's enough to run the following command:
 ```bash
 pip install -r ./requirements.txt
 ```
